@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Hello, world!</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg" id="barra">
+    <a class="navbar-brand" href="#">
+      <img src="img/ck.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      El Bollon
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="color: white; font-size: 24px; font-weight: bold;">+</span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ordenar.html">Ordenar</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  <section class="container" id="principal">
+    <section class="row">
+
+      <article class="col-12 p-4" id="seleccionOrden">
+        <label for="selectOrden" class="blanco">Selecciona el tipo de orden:</label>
+          <select name="selectOrden" id="tipoOrden" class="form-control">
+              <option value="seleccion">Selecciona...</option>
+              <option value="elegir">Pastel de Catalogo</option>
+              <option value="personalizado">Pastel Personalizado</option>
+          </select>
+      </article>
+
+    </section>
+
+    <section class="row p-3 d-none" id="pastelAElegir">
+
+      <article class="col-12">
+          <h1 class="textoTitulo">Pastel de catalogo</h1>
+      </article>
+
+      <article class="col-12 col-md-6">
+          <label for="selectOrden" class="blanco">Seleccione el pastel:</label>
+          <select name="selectOrden" id="tipoOrden" class="form-control">
+              <option value="seleccion">Selecciona...</option>
+              <option value="elegir">Pastel Doritos</option>
+              <option value="personalizado">Pastel Palacio</option>
+              <option value="elegir">Pastel Templo</option>
+              <option value="personalizado">Pastel Caramelo</option>
+              <option value="elegir">Pastel flores y mariposas</option>
+              <option value="personalizado">Pastel corazon sangriento</option>
+              <option value="elegir">Pastel de Niño</option>
+              <option value="personalizado">Pastel Cerebro</option>
+              <option value="elegir">Pastel frutos rojos</option>
+              <option value="personalizado">Cupcake de fresa</option>
+              <option value="elegir">Cupcake desertico</option>
+              <option value="personalizado">Cupcake Rosas</option>
+              <option value="elegir">Pastel y cupcake Pavo real</option>
+          </select>
+      </article>
+
+      <article class="col-12 col-md-6">
+        <label for="nombreCliente" class="blanco">Nombre del cliente:</label>
+        <input type="text" class="form-control" name="nombreCliente">
+      </article>
+
+      <article class="col-12">
+        <label for="comentarios" class="blanco">Comentarios extra:</label>
+        <textarea class="form-control" name="comentarios" id="cajaComentario" cols="30" rows="10"></textarea>
+      </article>
+
+    </section>
+
+    <section class="row p-3 d-none" id="pastelPersonalizado">
+        <article class="col-12">
+            <h1 class="textoTitulo">Pastel personalizado</h1>
+        </article>
+      <article class="col-12 col-md-6">
+        <label for="nombreDeCliente" class="blanco">Nombre del cliente:</label>
+        <input type="text" name="nombreDeCliente" id="nomCliente" class="form-control">
+      </article>
+      <article class="col-12 col-md-6">
+        <label class="blanco">Subir imagenes:</label>
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Subir</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01">
+                <label class="custom-file-label" for="inputGroupFile01">Seleccionar archivos...</label>
+              </div>
+            </div>
+      </article>
+      <article class="col-12 mt-2">
+        <label class="blanco">Ingredientes a elegir:</label>
+        <br>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Chocolate</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Vainilla</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Zanahoria</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Platano</label>
+              </div>
+              <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Tres Leches</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Fresa</label>
+                </div>
+      </article>
+
+      <article class="col-12 mt-2">
+          <label for="comentarios" class="blanco">Descripcion del pastel:</label>
+          <textarea class="form-control" name="comentarios" id="cajaComentario" cols="30" rows="10"></textarea>
+        </article>
+    </section>
+
+    <article class="p-3 d-none" id="seccionBoton">
+      <input type="button" value="Enviar Orden" class="btn btn-block btn-success">
+    </article>
+
+  </section>
+    <script src="js/orden.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  </html>

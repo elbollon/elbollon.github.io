@@ -89,3 +89,18 @@ body{
     color: white;
     letter-spacing: 2px;
 }
+
+.blanco{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.textoTitulo{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: cursive;
+}

@@ -32,6 +32,9 @@
         <li class="nav-item">
           <a class="nav-link" href="ordenar.html">Ordenar</a>
         </li>
+        <li class="nav-item">
+                <a class="nav-link" href="valoraciones.html">Valoraciones</a>
+              </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -62,9 +65,9 @@
 
       <article class="col-12 col-md-6">
           <label for="selectOrden" class="blanco">Seleccione el pastel:</label>
-          <select name="selectOrden" id="tipoOrden" class="form-control">
+          <select name="selectOrden" id="selectPastel" class="form-control">
               <option value="seleccion">Selecciona...</option>
-              <option value="elegir">Pastel Doritos</option>
+              <option value="doritos">Pastel Doritos</option>
               <option value="personalizado">Pastel Palacio</option>
               <option value="elegir">Pastel Templo</option>
               <option value="personalizado">Pastel Caramelo</option>
@@ -82,12 +85,12 @@
 
       <article class="col-12 col-md-6">
         <label for="nombreCliente" class="blanco">Nombre del cliente:</label>
-        <input type="text" class="form-control" name="nombreCliente">
+        <input type="text" class="form-control" name="nombreCliente" id="nombreCliente">
       </article>
 
       <article class="col-12">
         <label for="comentarios" class="blanco">Comentarios extra:</label>
-        <textarea class="form-control" name="comentarios" id="cajaComentario" cols="30" rows="10"></textarea>
+        <textarea class="form-control" name="comentarios" cols="30" rows="10" id="comentariosExtra"></textarea>
       </article>
 
     </section>
@@ -143,12 +146,12 @@
 
       <article class="col-12 mt-2">
           <label for="comentarios" class="blanco">Descripcion del pastel:</label>
-          <textarea class="form-control" name="comentarios" id="cajaComentario" cols="30" rows="10"></textarea>
+          <textarea id="descripcionPastel" class="form-control" name="comentarios" id="cajaComentario" cols="30" rows="10"></textarea>
         </article>
     </section>
 
     <article class="p-3 d-none" id="seccionBoton">
-      <input type="button" value="Enviar Orden" class="btn btn-block btn-success">
+      <input type="button" value="Enviar Orden" class="btn btn-block btn-success" id="botonEnviar">
     </article>
 
   </section>

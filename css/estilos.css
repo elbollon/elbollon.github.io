@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(204,236,239);
+}
+
+#inner{
+    border: 5px solid white;
+}
+
+#principal{
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 1024px;
+    background-color: rgb(111,183,214);
+    height: auto;
+}
+
+#barra{
+    background-color: rgb(249, 140, 182);
+}
+
+#barra a{
+    color: white;
+}
+
+#barra div ul li a{
+    color: white;
+}
+
+#articulos #mision{
+    border-right: 5px dotted white;
+}
+
+#quienes{
+    margin-bottom: 10px;
+}
+
+#ninguno{
+    border-right: none;
+}
+
+#quienes h3{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#mision{
+    font-size: 27px;
+    color: rgb(111,183,214);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#vision{
+    font-size: 27px;
+    color: rgb(111,183,214);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#articulos article hr{
+    background-color: white;
+    color: white;
+}
+
+#separador{
+    border-top: 10px dotted white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#textoGaleria{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.rosa{
+    background-color:rgb(249, 140, 182) ;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}

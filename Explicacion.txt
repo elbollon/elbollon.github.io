@@ -1,0 +1,12 @@
+Pedir un pastel
+    -Mandando una foto con una descripcion (Opciones de ingredientes: Chocolate, Vainilla, Zanahoria, Platano, TresLeches)
+    -Texto con descripcion del pastel, como tipo chat (Insertar imagenes)
+Galeria de pasteles ya hechos
+Galeria pasteles genericos
+Colores pasteles el tema
+Valoraciones de la pagina en general
+Ubicacion del lugar (Foto del google maps) y Contacto
+Pagina principal (Quienes somos, mision, vision)
+Quejas y Sugerencias
+
+
